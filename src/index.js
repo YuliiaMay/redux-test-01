@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <BrowserRouter basename="/redux-test-01">
+        <BrowserRouter basename="/redux-test-01" >
           <App />
         </BrowserRouter>
       </PersistGate>
