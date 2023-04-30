@@ -7,5 +7,6 @@ export const StyledLink = styled(NavLink)`
 
     &.active {
         color: red;
+        border-bottom: 1px solid red;
     }
 `
